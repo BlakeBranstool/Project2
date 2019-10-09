@@ -1,8 +1,7 @@
 import java.lang.Math;
-public class LetterAvg extends MesoInherit {
+public class LetterAvg {
 	
 	public LetterAvg(MesoStation mesoStation) {
-		super(mesoStation);
 		
 	}
 
