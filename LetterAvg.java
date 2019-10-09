@@ -1,21 +1,9 @@
-
-public class LetterAvg extends MesoAbstract {
-
+import java.lang.Math;
+public class LetterAvg extends MesoInherit {
+	
 	public LetterAvg(MesoStation mesoStation) {
 		super(mesoStation);
-	}
-
-	@Override
-	int[] calAverage() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	char letterAverage() {
 		
-		
-		return 0;
 	}
 
 }
