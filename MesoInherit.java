@@ -4,6 +4,7 @@ public class MesoInherit {
 
 	private String stid;
 	private int [] calAvg;
+	private char averageChar;
 	
 	private MesoStation mesoStation;
 	
@@ -48,8 +49,9 @@ public class MesoInherit {
 	}
 
 	public char letterAverage() {
-		// TODO Auto-generated method stub
-		return 'c';
+		averageChar = (char)calAvg[2];
+		
+		return averageChar;
 	}
 	
 }
