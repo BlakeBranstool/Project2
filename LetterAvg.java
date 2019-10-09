@@ -48,10 +48,10 @@ public class LetterAvg {
 	}
 	
 	public String toString() {
-		String str = String.format("They are: ");
+		String str = String.format("They are: \n");
 		
 		for(int index = 0; index < list.size(); ++index) {
-			str += String.format(format, args)
+			str += String.format("%s\n", list.get(index));
 		}
 		
 		return str;
