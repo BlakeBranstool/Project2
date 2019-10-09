@@ -9,9 +9,9 @@ public abstract class MesoAbstract extends MesoInherit
 	}
 
 	//Abstract method calAverage to return integer array.
-	abstract int[] calAverage();
+	public abstract int[] calAverage();
 
 	//TODO: Create an abstract method letterAverage with return type char
-	abstract char letterAverage();
+	public abstract char letterAverage();
 	
 }
