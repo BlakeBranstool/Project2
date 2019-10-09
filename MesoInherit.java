@@ -1,5 +1,5 @@
 
-public class MesoInherit {
+public abstract class MesoInherit {
 	
 	private MesoStation mesoStation;
 	
@@ -7,6 +7,10 @@ public class MesoInherit {
 		setMesoStation(mesoStation);
 	}
 
+	abstract int [] calAverage();
+	
+	abstract char letterAverage();
+	
 	public MesoStation getMesoStation() {
 		return mesoStation;
 	}
