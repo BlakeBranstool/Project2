@@ -15,8 +15,9 @@ public class PosAvg {
 	private String afterVal1;
 	private String afterVal2;
 	
-	public PosAvg(String stid) {
+	public PosAvg(String stid) throws IOException {
 		setStid(stid);
+		indexOfStation();
 	}
 	
 	public int indexOfStation() throws IOException {
