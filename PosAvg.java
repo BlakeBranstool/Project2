@@ -32,6 +32,8 @@ public class PosAvg {
 		previousVal2 = "";
 		
 		while(!(nextLine.equals(this.stid))) {
+			previousVal2 = previousVal1;
+			previousVal1 = nextLine;
 			nextLine = br.readLine().replace(" ", "").substring(0, STATION_ID_LENGTH);
 			++stationIndex;
 		}
@@ -44,9 +46,9 @@ public class PosAvg {
 	}
 	
 	public String toString() {
+		String str  = String.format("This index is average of %s and %s, %s and %s, and so on.", previousVal1, afterVal1, previousVal2, afterVal2);
 		
-		
-		return null;
+		return str;
 	}
 	
 	public String getStid() {
