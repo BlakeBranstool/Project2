@@ -1,9 +1,8 @@
 
-public class LetterAvg extends MesoInherit {
+public class LetterAvg extends MesoAbstract {
 
 	public LetterAvg(MesoStation mesoStation) {
 		super(mesoStation);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -14,7 +13,8 @@ public class LetterAvg extends MesoInherit {
 
 	@Override
 	char letterAverage() {
-		// TODO Auto-generated method stub
+		
+		
 		return 0;
 	}
 
